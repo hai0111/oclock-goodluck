@@ -1,0 +1,78 @@
+/* =========================== ADD FONT & GENERAL =========================== */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body,
+textarea,
+input,
+button,
+a {
+	font-size: 1.6rem;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+button,
+input,
+textarea {
+	outline-color: transparent;
+	border: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+/* =============================== CONTAINER =============================== */
+/* =============== Main =============== */
+main {
+	background: linear-gradient(rgb(0 0 0 /60%), rgb(0 0 0 /60%)),
+		url('./images/arto-marttinen-fHXP17AxOEk-unsplash.jpg');
+	background-size: cover;
+	min-height: 100vh;
+	color: rgb(160, 192, 207);
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 6vw;
+	transform: translateY(-5vw);
+	font-family: 'Tangerine', cursive;
+	font-weight: 100;
+}
+
+main > div {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 10vw;
+	font-weight: 700;
+	text-align: center;
+}
+
+.number,
+.type_of {
+	width: 20vw;
+	display: inline-block;
+}
