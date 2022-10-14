@@ -57,6 +57,7 @@ main {
 
 h1 {
 	font-size: 6vw;
+	margin-top: -6vw;
 	transform: translateY(-5vw);
 	font-family: 'Tangerine', cursive;
 	font-weight: 100;
